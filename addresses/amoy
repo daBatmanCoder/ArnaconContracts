@@ -1,0 +1,16 @@
+{
+    "rpc": "https://polygon-amoy-bor-rpc.publicnode.com",
+    "chain_id": 80002,
+    "hasher": "0x3542Cbdd6c0948A0f4f82F2a1ECb33FA4f55f242",
+    "verifier": "0xd3cD7Ca9f22a5E3E6F51E431893d0b9aBDc80B63",
+    "ayala": "0xd15A48869405107177A5cf749B755b964b113c1e",
+    "metadata": "0xC33F9Fde961459512a72C89C03091511eE6B3AF7",
+    "ens": "0xC883348E4CbDC67500C0cD41663d31Efaa70f455",
+    "serviceProviders": "0x3c1BBc1c46A6911cf683C4aCfB14e490F18e3288",
+    "serviceProvider": "",
+    "palo": "0x2bBda811Ca83237759fbEE586Ca86990bfe37277",
+    "mapping": "",
+    "products": "",
+    "subscriptionStripe": "",
+    "settlements": ""
+}

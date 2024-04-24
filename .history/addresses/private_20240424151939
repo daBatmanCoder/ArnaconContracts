@@ -1,0 +1,16 @@
+{
+    "rpc": "http://3.22.38.202:8545",
+    "chain_id": 2345,
+    "hasher": "",
+    "verifier": "0x7b052B26fB5d8C15687AF2B93CE47cE3e2600D98",
+    "ayala": "",
+    "metadata": "",
+    "ens": "",
+    "serviceProviders": "",
+    "serviceProvider": "",
+    "palo": "",
+    "mapping": "",
+    "products": "",
+    "subscriptionStripe": "",
+    "settlements": ""
+}

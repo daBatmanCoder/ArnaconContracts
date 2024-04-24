@@ -1,0 +1,16 @@
+{
+    "rpc": "https://polygon-amoy-bor-rpc.publicnode.com",
+    "chain_id": 80002,
+    "hasher": "",
+    "verifier": "",
+    "ayala": "",
+    "metadata": "",
+    "ens": "",
+    "serviceProviders": "",
+    "serviceProvider": "",
+    "palo": "",
+    "mapping": "",
+    "products": "",
+    "subscriptionStripe": "",
+    "settlements": "",
+}
