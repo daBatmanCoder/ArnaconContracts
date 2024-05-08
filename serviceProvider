@@ -183,6 +183,16 @@
 	{
 		"inputs": [
 			{
+				"internalType": "bytes",
+				"name": "_signature",
+				"type": "bytes"
+			},
+			{
+				"internalType": "string",
+				"name": "_messageSigned",
+				"type": "string"
+			},
+			{
 				"internalType": "string",
 				"name": "_ENS",
 				"type": "string"
