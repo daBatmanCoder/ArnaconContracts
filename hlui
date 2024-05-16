@@ -5,6 +5,11 @@
 				"internalType": "contract IAyala",
 				"name": "_ayalaAdress",
 				"type": "address"
+			},
+			{
+				"internalType": "contract INameHash",
+				"name": "_namehashAddress",
+				"type": "address"
 			}
 		],
 		"stateMutability": "nonpayable",
@@ -89,6 +94,19 @@
 				"internalType": "string",
 				"name": "",
 				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "namehashContract",
+		"outputs": [
+			{
+				"internalType": "contract INameHash",
+				"name": "",
+				"type": "address"
 			}
 		],
 		"stateMutability": "view",
