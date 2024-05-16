@@ -301,9 +301,9 @@
 				"type": "string"
 			},
 			{
-				"internalType": "bytes32",
+				"internalType": "bytes",
 				"name": "_ENSNode",
-				"type": "bytes32"
+				"type": "bytes"
 			}
 		],
 		"name": "updateNewServiceProvider",
