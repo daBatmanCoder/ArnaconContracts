@@ -9,10 +9,11 @@
     "serviceProviders": "0x0A86F60ADFc8F86845460E01E13C45CDf144910A",
     "serviceProvider": "0x4F857A7eCF8009ab8db7386cd0F95e33cc8109fE",
     "palo": "0x2bBda811Ca83237759fbEE586Ca86990bfe37277",
-    "hlui":"0x437c9352f2c657456bBCADfA2CAB6842DDEd6b2A",
+    "hlui":"0xfcc54Cf51f7862E53747207956e9a29f58214d37",
     "mapping": "",
     "products": "",
     "subscriptionStripe": "",
     "settlements": "",
-    "new-ens":"0x0b4899560193f6e6E1888ccD3FBae241981A1839"
+    "new-ens":"0x0b4899560193f6e6E1888ccD3FBae241981A1839",
+    "new-sp-testing":"0x4d0504ad5F5b931334A695a5E43AE184713aBFb2"
 }
