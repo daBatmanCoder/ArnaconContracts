@@ -7,13 +7,13 @@
     "metadata": "0xC33F9Fde961459512a72C89C03091511eE6B3AF7",
     "ens": "0xC883348E4CbDC67500C0cD41663d31Efaa70f455",
     "serviceProviders": "0x0A86F60ADFc8F86845460E01E13C45CDf144910A",
-    "serviceProvider": "0x4d0504ad5F5b931334A695a5E43AE184713aBFb2",
+    "serviceProviderTest": "0x7262eb88D1bf8fE1f95fe3b279B905e777ea75eC",
+    "serviceProviderTest2":"0x858f1258eba37C438122E02533c0992F86DC94C4",
     "palo": "0x2bBda811Ca83237759fbEE586Ca86990bfe37277",
     "hlui":"0xfcc54Cf51f7862E53747207956e9a29f58214d37",
     "mapping": "",
     "products": "",
     "subscriptionStripe": "",
     "settlements": "",
-    "new-ens":"0x0b4899560193f6e6E1888ccD3FBae241981A1839",
-    "new-sp-testing":"0x858f1258eba37C438122E02533c0992F86DC94C4"
+    "new-ens":"0x0b4899560193f6e6E1888ccD3FBae241981A1839"
 }
