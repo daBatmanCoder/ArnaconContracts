@@ -127,7 +127,26 @@
 				"type": "string"
 			}
 		],
-		"name": "GSMIPS",
+		"name": "GSMIPSCall",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"name": "GSMIPSMessage",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -159,7 +178,26 @@
 				"type": "uint256"
 			}
 		],
-		"name": "KamailioIPS",
+		"name": "KamailioIPSCall",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "KamailioIPSMessage",
 		"outputs": [
 			{
 				"internalType": "string",
@@ -236,7 +274,12 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "IPSForNumber",
+				"name": "IPSForNumberCall",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "IPSForNumberMessage",
 				"type": "uint256"
 			}
 		],
@@ -254,6 +297,19 @@
 			}
 		],
 		"name": "addNewIPRoute",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "ip",
+				"type": "string"
+			}
+		],
+		"name": "addNewIPRouteCall",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -364,7 +420,26 @@
 				"type": "string"
 			}
 		],
-		"name": "getIPSFromNumber",
+		"name": "getIPSFromNumberCall",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "gsm_number",
+				"type": "string"
+			}
+		],
+		"name": "getIPSFromNumberMessage",
 		"outputs": [
 			{
 				"internalType": "string[]",
@@ -383,7 +458,26 @@
 				"type": "uint256"
 			}
 		],
-		"name": "getIPsForNumber",
+		"name": "getIPsForNumberCall",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "number",
+				"type": "uint256"
+			}
+		],
+		"name": "getIPsForNumberMessage",
 		"outputs": [
 			{
 				"internalType": "string[]",
@@ -441,7 +535,7 @@
 	},
 	{
 		"inputs": [],
-		"name": "indexOfIP",
+		"name": "indexOfIPCall",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -453,13 +547,20 @@
 		"type": "function"
 	},
 	{
-		"inputs": [
+		"inputs": [],
+		"name": "indexOfIPMessage",
+		"outputs": [
 			{
-				"internalType": "string",
-				"name": "ens",
-				"type": "string"
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
 			}
 		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
 		"name": "isUserValid",
 		"outputs": [
 			{
