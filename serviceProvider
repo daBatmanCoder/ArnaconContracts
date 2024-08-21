@@ -101,6 +101,10 @@
 		"type": "event"
 	},
 	{
+		"stateMutability": "payable",
+		"type": "fallback"
+	},
+	{
 		"inputs": [
 			{
 				"internalType": "string",
@@ -296,7 +300,7 @@
 				"type": "string"
 			}
 		],
-		"name": "addNewIPRoute",
+		"name": "addNewIPRouteCall",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -309,7 +313,7 @@
 				"type": "string"
 			}
 		],
-		"name": "addNewIPRouteCall",
+		"name": "addNewIPRouteMessage",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -644,25 +648,6 @@
 	{
 		"inputs": [
 			{
-				"internalType": "string",
-				"name": "str",
-				"type": "string"
-			}
-		],
-		"name": "stringToUint",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"stateMutability": "pure",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "bytes",
 				"name": "_signature",
 				"type": "bytes"
@@ -682,5 +667,29 @@
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "_ENSNode",
+				"type": "bytes32"
+			}
+		],
+		"name": "updateUserDirectly",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "withdraw",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
 	}
 ]
