@@ -116,52 +116,35 @@
 		"inputs": [
 			{
 				"internalType": "bytes32",
-				"name": "_node",
+				"name": "data",
 				"type": "bytes32"
 			}
 		],
-		"name": "updateUser",
-		"outputs": [],
-		"stateMutability": "nonpayable",
+		"name": "bytes32ToBytes",
+		"outputs": [
+			{
+				"internalType": "bytes",
+				"name": "",
+				"type": "bytes"
+			}
+		],
+		"stateMutability": "pure",
 		"type": "function"
 	},
 	{
 		"inputs": [
 			{
-				"internalType": "bytes",
-				"name": "_signature",
-				"type": "bytes"
-			},
-			{
 				"internalType": "string",
-				"name": "_messageSigned",
+				"name": "_commitment",
 				"type": "string"
 			},
 			{
-				"internalType": "bytes32",
-				"name": "_node",
-				"type": "bytes32"
-			}
-		],
-		"name": "updateUserRegistery",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "bytes32",
-				"name": "_node",
-				"type": "bytes32"
-			},
-			{
 				"internalType": "address",
-				"name": "_address",
+				"name": "userAddress",
 				"type": "address"
 			}
 		],
-		"name": "updateUserWAddress",
+		"name": "commitmentForChange",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -244,6 +227,83 @@
 			}
 		],
 		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "_node",
+				"type": "bytes32"
+			}
+		],
+		"name": "updateUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes",
+				"name": "_signature",
+				"type": "bytes"
+			},
+			{
+				"internalType": "string",
+				"name": "_messageSigned",
+				"type": "string"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "_node",
+				"type": "bytes32"
+			}
+		],
+		"name": "updateUserRegistery",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes",
+				"name": "_signature",
+				"type": "bytes"
+			},
+			{
+				"internalType": "string",
+				"name": "_commitment",
+				"type": "string"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "_node",
+				"type": "bytes32"
+			}
+		],
+		"name": "updateUserRegistryWithCommitmentCheck",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "_node",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "address",
+				"name": "_address",
+				"type": "address"
+			}
+		],
+		"name": "updateUserWAddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
