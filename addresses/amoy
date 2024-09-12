@@ -1,5 +1,5 @@
 {
-    "rpc": "https://polygon-amoy-bor-rpc.publicnode.com",
+    "rpc": "https://rpc-amoy.polygon.technology",
     "chain_id": 80002,
     "hasher": "0x3542Cbdd6c0948A0f4f82F2a1ECb33FA4f55f242",
     "verifier": "0xd3cD7Ca9f22a5E3E6F51E431893d0b9aBDc80B63",
